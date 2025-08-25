@@ -43,6 +43,6 @@ Use all UDF types:
 7. Menu-driven (loop until user chooses exit).
 8. Use ES6 variables (let, const) and template literals.
 
-Output:
+
 
 

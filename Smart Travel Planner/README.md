@@ -17,9 +17,33 @@ This project aims to solve a specific programming problem (please clarify or upd
     - The user enters data or interacts with UI elements.
     - The program responds in real-time, displaying outputs or feedback.
 
-## Screenshots of Outputs
+🧩 Project Flow
+        🌍 Input Travel Destinations
+        Ask the user to enter 3–5 destinations (store in an array).
+        Use a for loop with prompt() for input.
+        💰 Budget Check                                   
+        Ask the user to input their total budget.
+        If budget < ₹10,000 → "Plan a short domestic trip."
+        If budget ₹10,000–₹50,000 → "You can plan a long domestic trip."
+        If budget > ₹50,000 → "International trip possible!"
+        🗓️ Number of Days Calculator
+        Ask user for number of travel days.
+        If days < 3 → "Weekend Getaway."
+        If 3–7 days → "Perfect Holiday Trip."
+        If > 7 days → "Extended Vacation."
+        🛏️ Hotel Budget Suggestion (Function)
+        Use a function to suggest hotel type:
+        If budget/day < ₹2000 → "Budget Hotels."
+        If ₹2000–₹5000 → "Mid-range Hotels."
+        If > ₹5000 → "Luxury Hotels."
+        ✅ Final Travel Summary
+        Use template literals (ES6) to print:
+        Destinations list
+        Total Budget
+        Days Planned
+        Hotel Suggestion
+        Trip Type
 
-Below are placeholders for output screenshots. Please replace these with actual images or provide screenshots:
 
 
 --------- Final Travel Summary ---------

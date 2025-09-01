@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" href="https://gecdesigns.com/_next/image?url=https%3A%2F%2Fasset.gecdesigns.com%2Fimg%2Fwallpapers%2Fradha-krishna-premium-hd-image-divine-love-artwork-for-mobile-wallpaper-and-framed-prints-sr24062503-cover.webp&w=1440&q=75">
+<body>
+
+  <div class="slider-container">
+    <div class="slider">
+      <img id="slider-img" src="./imgs/p1.jpg"
+        alt="Slide">
+      <div class="slider-overlay">
+        <div class="caption" id="caption">Radha Krishna</div>
+        <div class="counter" id="counter">Slide 1 of 3</div>
+      </div>
+      <div class="loading" id="loading">Loading...</div>
+    </div>
+
+    <button class="nav-arrows prev-arrow" onclick="prevSlide()"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="nav-arrows next-arrow" onclick="nextSlide()"><i class="fa-solid fa-chevron-right"></i></button>
+
+  <div class="add-slide-section">
+    <h3>Add a New Masterpiece</h3>
+    <div class="input-group">
+      <input type="text" class="input" id="img-url" placeholder="Image URL">
+      <input type="text" class="input" id="img-caption" placeholder="Caption">
+    </div>
+    <div class="controls">
+      <button class="btn" onclick="addSlide()">
+        <i class="fa-solid fa-plus"></i> Add Slide
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

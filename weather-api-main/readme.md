@@ -44,24 +44,13 @@ If the city is invalid, an error image and message will appear.
 
 🌟 Demo
 
-(Add a gif or screenshot of your app here to make it visually appealing.)
+![output](s1.png) ![output](s2.png) ![output](s3.png)
 
-⚠️ Notes
-
-Ensure you have an internet connection for the weather API to work.
-
-Make sure the images folder contains city-error.jpg for error display.
-
-You can customize the design by editing style.css.
 
 📜 License
 
 This project is open-source and free to use for personal and educational purposes.
 
-
-output:
-
-![output](s1.png) ![output](s2.png) ![output](s3.png)
 
 
 👨‍💻 Author,

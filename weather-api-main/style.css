@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to top right, #89f7fe, #66a6ff);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+
+    #boxCard {
+        padding: 30px 70px;
+        background-color: #E6F5F9;
+        width: fit-content;
+        border-radius: 10px;
+
+        #title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    #form {
+        margin-top: 30px;
+        gap: 20px;
+
+
+        #cityName {
+            background-color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: #000;
+        }
+
+        #search {
+            background-color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+    }
+
+    #cityWeather {
+        text-align: center;
+
+        /* background-image: url(); */
+
+        #temp {
+            margin-top: 10px;
+            font-size: 70px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 27px;
+            position: relative;
+
+            #degree {
+                position: absolute;
+                top: 30%;
+                left: 52%;
+                border-radius: 50%;
+                border: 4px solid #000;
+                height: 18px;
+                width: 18px;
+
+            }
+        }
+
+        #cityName {
+            font-size: 35px;
+            font-weight: 500;
+            margin: 20px 0px;
+            margin-top: 10px;
+        }
+
+        #otherDetails {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            #humidity,
+            #speed {
+                display: flex;
+                /* justify-content: space-between; */
+                align-items: center;
+                gap: 10px;
+
+                i {
+                    font-size: 23px;
+                }
+
+                #humidityData,
+                #speedData {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    #notCorrectCity {
+        display: none;
+
+        #title {
+            color: red;
+            font-size: 25px;
+            text-align: center !important;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        #image {
+            margin-top: 20px;
+            height: 200px;
+            /* width: 100px; */
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
